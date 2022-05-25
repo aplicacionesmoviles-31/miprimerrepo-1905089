@@ -1,0 +1,32 @@
+ion-card {
+    min-height: 500px;
+}
+
+ion-card-header {
+    padding-bottom: 0 !important;
+}
+
+ion-button {
+    width: 100%;
+}
+
+ion-col img {
+    width: 100%;
+}
+
+ion-col img:not(.redondo) {
+    width: 100%;
+}
+
+.bgRojo {
+    background-color: red; 
+}
+
+.bgRojo button,
+ion-button button {
+    background-color: inherit;
+}
+
+.redondo {
+    border-radius: 50%;
+}

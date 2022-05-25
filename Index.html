@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+
+    <link rel="stylesheet" href="estilos.css">
+    <title>Practica HTML</title>
+</head>
+<body id="body">
+    <ion-app> <!--Bloq aplicacion-->
+        <ion-tabs> <!--Contenido pestañas-->
+          <ion-tab tab="inicio"> <!--pe Feed -->
+          <ion-content>
+            <ion-card> <!--Tarjeta-->
+              <ion-card-header> <!--Encabezado tarjeta-->
+                <ion-grid>
+                  <ion-row>
+                    <ion-col size="1">
+                      <img src="perropanzon.jpg" alt="" width="50px">
+                    </ion-col>
+                    <ion-col size="10">
+                      <ion-card-subtitle>@ferddy</ion-card-subtitle>
+                    </ion-col>
+                    <ion-col size="1">
+                      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-header>
+            
+              <ion-card-content> <!--Contenido tarjeta-->
+                 <ion-grid>
+                   <ion-row> <!--Fila foto-->
+                     <ion-col>
+                      <img src="freddy.jpg" alt="" height="100%" width="100%">
+                     </ion-col>
+                   </ion-row>
+                   <ion-row> <!--Fila Opciones-->
+                     <ion-col  size="1">
+                      <ion-icon name="heart-outline"></ion-icon>
+                     </ion-col>
+                     <ion-col  size="1">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+                     </ion-col>
+                     <ion-col size="1">
+                      <ion-icon name="share-outline"></ion-icon>
+                     </ion-col>
+                   </ion-row>
+                   <ion-row> <!--comentarios-->
+                    <ion-col>
+                      <strong>rigoberto</strong> siuuui
+                    </ion-col>
+                   </ion-row>
+                   <ion-row> <!--FilaComentario-->
+                    <ion-col size="1">
+                      <img src="angel.jpg" alt="" width="100%" height="100%">
+                    </ion-col>
+                     <ion-col>
+                       <ion-input placeholder="Agrega un comentario..."></ion-input>
+                     </ion-col>
+                   </ion-row>
+                 </ion-grid>
+              </ion-card-content>
+            </ion-card>
+
+            <ion-card> <!--Tarjeta-->
+              <ion-card-header> 
+                <ion-grid>
+                  <ion-row>
+                    <ion-col size="1">
+                      <img src="angel.jpg" alt="" width="50px">
+                    </ion-col>
+                    <ion-col size="10">
+                      <ion-card-subtitle>@freddy</ion-card-subtitle>
+                    </ion-col>
+                    <ion-col size="1">
+                      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-header>
+            
+              <ion-card-content> 
+                 <ion-grid>
+                   <ion-row> 
+                     <ion-col>
+                      <img src="perropanzon.jpg" alt="" height="100%" width="100%">
+                     </ion-col>
+                   </ion-row>
+                   <ion-row> <!--Fila de Opciones-->
+                     <ion-col  size="1">
+                      <ion-icon name="heart-outline"></ion-icon>
+                     </ion-col>
+                     <ion-col  size="1">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+                     </ion-col>
+                     <ion-col size="1">
+                      <ion-icon name="share-outline"></ion-icon>
+                     </ion-col>
+                   </ion-row>
+                   <ion-row> <!--fila de los comentarions-->
+                    <ion-col>
+                      <strong>iggor</strong> ostia
+                    </ion-col>
+                   </ion-row>
+                   <ion-row> 
+                    <ion-col size="1">
+                      <img src="angel.jpg" alt="">
+                    </ion-col>
+                     <ion-col>
+                       <ion-input placeholder="Agrega un comentario..."></ion-input>
+                     </ion-col>
+                   </ion-row>
+                 </ion-grid>
+              </ion-card-content>
+            </ion-card>
+
+
+            <ion-card> <!--Tarjeta-->
+              <ion-card-header> 
+                <ion-grid>
+                  <ion-row>
+                    <ion-col size="1">
+                      <img src="sergio.jpg" alt="" width="50px">
+                    </ion-col>
+                    <ion-col size="10">
+                      <ion-card-subtitle>@Angel</ion-card-subtitle>
+                    </ion-col>
+                    <ion-col size="1">
+                      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-header>
+            
+              <ion-card-content> <
+                 <ion-grid>
+                   <ion-row> <!--Fila de la foto-->
+                     <ion-col>
+                      <img src="sergio.jpg" alt="" width="100%" height="100%">
+                     </ion-col>
+                   </ion-row>
+                   <ion-row> <!--Fila de Opciones-->
+                     <ion-col  size="1">
+                      <ion-icon name="heart-outline"></ion-icon>
+                     </ion-col>
+                     <ion-col  size="1">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+                     </ion-col>
+                     <ion-col size="1">
+                      <ion-icon name="share-outline"></ion-icon>
+                     </ion-col>
+                   </ion-row>
+                   <ion-row> 
+                    <ion-col>
+                      <strong>pancho</strong> trikitrakatelas
+                    </ion-col>
+                   </ion-row>
+                   <ion-row> 
+                    <ion-col size="1">
+                      <img src="perropanzon.jpg" alt="">
+                    </ion-col>
+                     <ion-col>
+                       <ion-input placeholder="Agrega un comentario..."></ion-input>
+                     </ion-col>
+                   </ion-row>
+                 </ion-grid>
+              </ion-card-content>
+            </ion-card>
+
+            <ion-card> 
+              <ion-card-header>
+                <ion-grid>
+                  <ion-row>
+                    <ion-col size="1">
+                      <img src="sergio.jpg" alt="" width="50px">
+                    </ion-col>
+                    <ion-col size="10">
+                      <ion-card-subtitle>@Angel</ion-card-subtitle>
+                    </ion-col>
+                    <ion-col size="1">
+                      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-header>
+            
+              <ion-card-content> 
+                 <ion-grid>
+                   <ion-row> 
+                     <ion-col>
+                      <img src="sergio.jpg" alt="" height="100%" width="100%">
+                     </ion-col>
+                   </ion-row>
+                   <ion-row> <!--Fila Opciones-->
+                     <ion-col  size="1">
+                      <ion-icon name="heart-outline"></ion-icon>
+                     </ion-col>
+                     <ion-col  size="1">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+                     </ion-col>
+                     <ion-col size="1">
+                      <ion-icon name="share-outline"></ion-icon>
+                     </ion-col>
+                   </ion-row>
+                   <ion-row> 
+                    <ion-col>
+                      <strong>angel</strong> siuuu
+                    </ion-col>
+                   </ion-row>
+                   <ion-row> 
+                    <ion-col size="1">
+                      <img src="sergio.jpg" alt="">
+                    </ion-col>
+                     <ion-col>
+                       <ion-input placeholder="Agrega un comentario..."></ion-input>
+                     </ion-col>
+                   </ion-row>
+                 </ion-grid>
+              </ion-card-content>
+            </ion-card>
+          </ion-content>
+          </ion-tab>
+
+          <ion-tab tab="buscar"> 
+            <h1>Espacio para buscar</h1>
+          </ion-tab>
+
+          <ion-tab tab="foto"> 
+            <h1>Espacio para subir fotografia</h1>
+          </ion-tab>
+ 
+          <ion-tab tab="comprar"> 
+            <label for="articulo">Producto</label>
+           <input type="text" id="articulo">
+
+           <label for="precio">Precio:</label>
+           <input type="number" id="precio">
+
+           <ion-button id="calcularTotal" onclick="calcularTotal()">Calcular Total</ion-button>
+
+           <h2>Ticket:</h2>
+           <ul id="ticket">
+             
+           </ul>
+           <p id="parrafoTotal">Total:</p>
+
+           <button id="limpiarLista">Limpiar Lista</button>
+          </ion-tab>
+          <ion-tab tab="perfil"> 
+            <h1>Sergio</h1>
+
+            <ion-content>
+            <ion-grid> 
+                <ion-row> 
+                  <ion-col> 
+                    <ion-row> 
+                      <ion-col> 
+                        <ion-col>
+                          <img src="sergio.jpg" alt="" width="95px" class="redondo">
+                        </ion-col>
+                      </ion-col>
+                   
+                  </ion-col>
+                  <ion-col> 
+                    <ion-row>
+                      <ion-col> 
+                        12
+                      </ion-col>
+                    </ion-row>
+                    <ion-row>
+                      <ion-col>
+                        Publicaciones
+                      </ion-col>
+                    </ion-row>
+                  </ion-col>
+
+                  <ion-col> 
+                    <ion-row>
+                      <ion-col>
+                        100000001
+                      </ion-col>
+                     
+                    </ion-row>
+                    <ion-row>
+                      <ion-col>
+                        Seguidores
+                      </ion-col>
+                    </ion-row>
+                  </ion-col>
+
+                  <ion-col> 
+                    <ion-row>
+                      <ion-col>
+                        1
+                      </ion-col>
+                      
+                    </ion-row>
+                    <ion-row>
+                      <ion-col>
+                        Siguiendo
+                      </ion-col>
+                    </ion-row>
+                </ion-col>
+                </ion-row>
+              </ion-grid>
+
+            <ion-grid> 
+              <ion-row>
+                <ion-col>
+                  Sobre Mí
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+
+            <ion-grid> 
+              <ion-row>
+                 
+                <ion-col>
+                    <ion-button id="seguir-btn">Seguir</ion-button> 
+                  </ion-col>
+
+                </ion-col>
+                <ion-col>
+                  <ion-button id ="botonMensaje">Mensaje</ion-button> 
+                </ion-col>
+                <ion-col>
+                  <ion-button>Whatsapp</ion-button> 
+                </ion-col>
+              </ion-row>
+              <ion-row id="contenedorMensaje">
+                <ion-col>
+                  <ion-input placeholder="Escribe..."></ion-input>
+
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+
+
+            <ion-grid> 
+              <ion-row> 
+                <ion-col>
+                  <img src="sergio.jpg" alt="">
+                </ion-col>
+                <ion-col>
+                  <img src="freddy.jpg" alt="">
+                </ion-col>
+                <ion-col>
+                  <img src="sergio.jpg" alt="">
+                </ion-col>
+                <ion-col>
+                  <img src="freddy.jpg" alt="">
+                </ion-col>
+              </ion-row>
+              <ion-row> 
+                <ion-col>
+                  <img src="sergio.jpg" alt="">
+                </ion-col>
+                <ion-col>
+                  <img src="freddy.jpg" alt="">
+                </ion-col>
+                <ion-col>
+                </ion-row>
+              </ion-grid>
+              </ion-content>
+            </ion-tab>
+        
+
+          <!--botones pestañas-->
+          <ion-tab-bar slot="bottom"> <!--contenedor botones de las pestañas-->
+            <ion-tab-button tab="inicio"> <!--boton de pestaña de inicio-->
+              <ion-label>Inicio</ion-label>
+              <ion-icon name="home-outline"></ion-icon>
+            </ion-tab-button>
+
+            <ion-tab-button tab="buscar"> <!--boton de buscar-->
+                <ion-label>Buscar</ion-label>
+                <ion-icon name="search-outline"></ion-icon>
+              </ion-tab-button>
+
+              <ion-tab-button tab="foto"> <!--boton de buscar-->
+                <ion-label>Foto</ion-label>
+                <ion-icon name="search-outline"></ion-icon>
+              </ion-tab-button>
+          
+            <ion-tab-button tab="comprar"> <!--boton de comprar-->
+                <ion-label>Comprar</ion-label>
+                <ion-icon name="bag-handle-outline"></ion-icon>
+              </ion-tab-button>
+
+
+
+            <ion-tab-button tab="perfil"> 
+                <ion-label>Perfil</ion-label>
+                <ion-icon name="person-circle-outline"></ion-icon>
+              </ion-tab-button>
+          </ion-tab-bar>
+
+          
+
+        </ion-tabs> 
+      </ion-app>  
+</body>
+<script src = "index.js"></script>
+</html>
